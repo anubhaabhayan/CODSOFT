@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4A90E2;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #357ABD;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #EAF2FB;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .section {
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #4A90E2;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    .btn {
+      background-color: #4A90E2;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #357ABD;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Awesome Landing Page</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to the Future of Web Design</h1>
+    <p>Explore how simple and clean design can help you build professional websites with ease. Try it out today!</p>
+    <br>
+    <button class="btn" onclick="alertMessage()">Get Started</button>
+  </section>
+
+  <section class="section" id="features">
+    <div class="card">
+      <h2>Responsive Layout</h2>
+      <p>Looks great on all devices—mobile, tablet, and desktop.</p>
+    </div>
+    <div class="card">
+      <h2>Easy to Customize</h2>
+      <p>Adjust colors, fonts, and layout with simple CSS tweaks.</p>
+    </div>
+    <div class="card">
+      <h2>Fast Loading</h2>
+      <p>Optimized structure ensures quick loading for better UX.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyLandingPage. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function alertMessage() {
+      alert("Thanks for getting started with us!");
+    }
+  </script>
+</body>
+</html>
