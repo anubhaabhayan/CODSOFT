@@ -1,0 +1,1 @@
+The photo and link to the resume are not added in this repository. You can either use an image named “photo.jpg” along with the file or provide a link to the image file. Similarly, you should also provide a link to the resume file in the “href” part of the link.
